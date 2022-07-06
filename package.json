@@ -82,7 +82,7 @@
     "react-dom": ">=17.0.0"
   },
   "scripts": {
-    "build": "rollup -c",
+    \"build": "rollup -c",
     "build:watch": "rollup -cw",
     "prepublishOnly": "yarn run build",
     "install:clean": "rm -rf node_modules && yarn install",
